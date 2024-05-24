@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Segoe Ui';
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(255, 255, 255, 0.65)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+
+}   
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+
+
+nav ul{
+    list-style:none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.content{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: 3000px;
+    padding: 60px;
+    background-color: rgba(39, 29, 53,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    top: -280px
+    
+}
+
+.policy{
+    position: relative;
+    text-align: center;
+    top: -280px;
+    width: 100%;
+    padding: 60px;
+    background-color: rgb(39, 29, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    
+}
+
+h1{
+    font-size: 36px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 22px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px; 
+    color: #fff; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+}
+
+label{
+    font-size: 20px; 
+    color: #fff; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+
+#datetime{
+    color: #fff; 
+    font-weight: lighter;
+}
